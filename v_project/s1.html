@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7.4px 40px;
+    text-decoration: none;
+    background-color:rgba(224,235,235,0.4);
+}
+li a:hover:not(.active)
+{
+    background-color:green;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="s1.html">Home</a></font></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="restaurant.html">Restaurant</a></li>
+  <li><a href="../pr_html/index2.html">Main Page</a></li>
+  <!-- <li><a href="">Home-Delivery</a></li> -->
+  <li><a href="loc.html">Location</a></li>
+  <li><a href="contact.html">contact</a></li>
+  <!-- <li><a href="">Reserve a table</a></li> -->
+</ul>
+</body>
+<style>
+body
+{
+background-image: url("a9.jpg");
+height: 100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+a
+{
+text-decoration:none;
+color:black;
+font-size:20px;
+font-weight:bold;
+}
+.heads
+{
+padding:4px;
+font-size:60px;
+color:black;
+font-weight:bold;
+text-align:center;
+background-color:rgba(224,235,235,0.3);
+}
+</style>
+</head>
+<body>
+<div class="heads">
+<p>VENKY'S DELIGHT</p>
+</div>
+<head>
+
+	<style type="text/css">
+	#container {
+		width:100%;
+	}
+	#box1	{
+		font-size:25px;color:white;background:black; border:1px solid black;
+		float:left; height:300px;width:924px;margin-right:1px;
+	}
+	#box2 	{
+		font-size:25px;color:white;background:black; border:1px solid black;
+		float:left; height:300px;width:400px;margin-right:1px;
+	}
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="box1">
+	<style>
+.first {display:none;}
+</style>
+<body>
+<div class="u-content u-section " style="max-width:100px">
+  <img class="first" src="a.jpg"  style="width:924%;height:300px;">
+  <img class="first" src="b.jpg"  style="width:924%;height:300px;">
+  <img class="first" src="c.jpeg" style="width:924%;height:300px;">
+  <img class="first" src="d.jpg"  style="width:924%;height:300px;">
+  <img class="first" src="e.jpg"  style="width:924%;height:300px;">
+</div>
+<script>
+var myIndex = 0;
+slideshow();
+function slideshow() {
+    var i;
+    var y = document.getElementsByClassName("first");
+    for (i = 0; i < y.length; i++) {
+       y[i].style.display = "none";
+    }
+    myIndex++;
+    if(myIndex > y.length) {myIndex = 1}
+    y[myIndex-1].style.display = "block";
+    setTimeout(slideshow, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</div>
+</div>
+<div id="box2">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div class="v-content v-section" style="max-width:100px">
+
+  <img class="mySlides" src="1.jpeg" style="width:400%;height:300px;">
+  <img class="mySlides" src="2.jpg" style="width:400%;height:300px;">
+  <img class="mySlides" src="3.jpeg" style="width:400%;height:300px;">
+  <img class="mySlides" src="4.jpg" style="width:400%;height:300px;">
+  <img class="mySlides" src="5.jpg" style="width:400%;height:300px;">
+</div>
+<script>
+var ilu = 0;
+carousel();
+function carousel()
+{
+    var j;
+    var x = document.getElementsByClassName("mySlides");
+    for (j = 0; j < x.length; j++)
+    {
+       x[j].style.display = "none";
+    }
+    ilu++;
+    if (ilu> x.length) {ilu = 1}
+    x[ilu-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</body>
+</div>
+</div>
+</body>
+<style style="text/xss">
+div.slide-left{
+width:100%;
+overflow:hidden;
+}
+div.slide-left p{
+animation:slide-left 20s;
+}
+.cl{
+padding:2px;
+color:black;
+font-size:30px;
+font-weight:bold;
+background-color:rgba(224,235,235,0.5);
+}
+@keyframes slide-left{
+from{
+margin-left:80%;
+width:300%;
+}
+to{margin-left:0%;
+width:100%;
+}
+}
+</style>
+<div class="slide-left">
+<div class="cl">
+<br><br>
+<cl><p>THERE IS NO SINCERE LOVE THAN THE LOVE FOR FOOD...</p></cl>
+</div>
+</div>
+</html>

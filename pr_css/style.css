@@ -1,0 +1,90 @@
+body{
+  background-image: url('../burger.jpg');
+  background-repeat: no-repeat;
+  font-family: Sofia;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+header{
+  text-align: left;
+  color: white;
+  font-size: 70px;
+  float:inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 10px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+#login{
+  display: block;
+}
+#signup{
+  display: none;
+}
+#backToLogin{
+  padding: 5px ;
+  border: none 0px;
+  background-color: rgba(0,0,0,0.2);
+}
+#backToLogin:hover{
+  cursor: pointer;
+  outline: none;
+}
+button{
+  color: white;
+}
+button:hover{
+  box-shadow: 0px 0px 4px 0.5px inset ;
+}
+
+table{
+  border : white solid 1px ;
+  color: white ;
+  margin-left: 37vw;
+  background-color: rgba(0,0,0,0.4);
+  margin-top: 30px;
+}
+
+td{
+  padding: 5px;
+}
+
+#submit{
+  padding: 5px ;
+  border: none 0px;
+  background-color: rgba(0,170,0,0.5);
+  width: 100%;
+}
+
+#reset{
+  padding: 5px;
+  border: none 0px;
+  background-color: rgba(150,0,0,0.5);
+  width: 100%;
+}
+
+#log{
+  padding: 5px;
+  border: none 0px;
+  background-color: rgba(0,170,0,0.5);
+  width: 100%;
+}
+
+#sign{
+  padding: 5px;
+  border: none 0px;
+  background-color: rgba(0,100,0,0.5);
+  width: 100%;
+}
+
+input{
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px white;
+  text-decoration: none;
+  outline: none;
+}

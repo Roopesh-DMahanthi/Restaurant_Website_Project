@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<head>
+<style>
+li
+{
+    float: left;
+}
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7.4px 40px;
+    text-decoration: none;
+}
+</style>
+<style>
+body
+{
+background-image: url("f4.jpg");
+height:100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+a
+{
+text-decoration:none;
+color:black;
+font-size:20px;
+font-weight:bold;
+}
+.heads
+{
+padding:10px;
+font-size:60px;
+color:black;
+font-weight:bold;
+text-align:center;
+background-color:rgba(224,235,235,0.7);
+}
+.holder
+{
+text-align:justify;
+width:350;
+}
+img
+{
+padding:10px;
+}
+va
+{
+padding:10px;
+}
+</style>
+</li>
+</head>
+<div class="heads">
+<body>
+<center><img src="bf.png"width="250"height="250"></center>
+</div>
+</body>
+<style>
+.mySlides
+{display:right;
+}
+</style>
+<body>
+<center>
+<div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="g12.jpeg" style="width:800px"height="300">
+  <img class="mySlides" src="g3.jpeg" style="width:800px"height="300">
+  <img class="mySlides" src="g4.jpeg" style="width:800px"height="300">
+  <img class="mySlides" src="g5.jpeg" style="width:800px"height="300">
+</div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+<table align="center">
+<tr>
+<td>
+<img style="width:250px; height:200px" src="b7.jpeg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="b1.jpeg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="b6.jpg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="dp.jpeg"/>
+</td>
+</tr>
+<tr>
+<td>
+<va><a href="ho.html"style="color:blue">Home</a></va>
+</td>
+<td>
+<va><a href="abt.html"style="color:blue">About</a></va>
+</td>
+<td>
+<va><a href="gal.html"style="color:blue">Gallery</a></va>
+</td>
+<td>
+<va><a href="rest.html"style="color:blue">Restaurant</a></va>
+</td>
+</tr>
+<tr>
+<td>
+<img style="width:250px; height:200px" src="b2.jpeg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="b5.jpeg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="b3.jpeg"/>
+</td>
+<td>
+<img style="width:250px; height:200px" src="b4.jpg"/>
+</td>
+</tr>
+<tr>
+<td>
+<va><a href="link"style="color:blue">Home-Delivery</a></va>
+</td>
+<td>
+<va><a href="lo.html"style="color:blue">Location</a></va>
+</td>
+<td>
+<va><a href="co.html"style="color:blue">Contact us</a></va>
+</td>
+<td>
+<va><a href="link"style="color:blue">Reserve a table</a></va>
+</td>
+</tr>
+</table>

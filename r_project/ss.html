@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home : Southern Spice</title>
+<style>
+.content{
+  background-color: rgba(0,0,0,0.5);
+  width: auto;
+  height: auto;
+}
+h1 {
+    font-family: "Courier New";
+    color: yellow;
+}
+    h2 {
+        font-family: "Georgia";
+    color: lightgreen;
+}
+body {
+    background-image: url("ss1.JPG");
+}
+ul {
+    font-family: "Georgia";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #FFA500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #e7e7e7;
+}
+
+.active {
+    background-color: #111;
+}
+</style>
+    <style>
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: ghostwhite;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 12px 135px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #111;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="content">
+<ul>
+  <li><a class="active" href="ss.html">Home</a></li>
+    <li><a href="ssmenu.html">Menu</a></li>
+    <li><a href="ssgallery.html">Gallery</a></li>
+  <li><a href="sscus.html">Contact Us</a></li>
+    <li><a href="ssmap.PNG">Location</a></li>
+    <li><a href="../pr_html/index2.html">Main Page</a></li>
+    <!-- <li><a href="#homedel">Home Delivery</a></li>
+    <li><a href="#res">Reserve a Table!</a></li> -->
+
+</ul>
+    <br/><br/>
+
+  <center><img src="sslogo.png" alt="logo" width="720" height="360"></center>
+     <br/><br/><br/>
+    <center><h1>Dream of Dining at one of the finest Restaurants....made Possible </h1>
+        <br/><br/>
+   </center>
+
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="ss1.JPG" style="width:75%">
+  <div class="text">EXTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="ss2.JPG" style="width:75%">
+  <div class="text">EXTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="ss3.JPG" style="width:75%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="ss4.JPG" style="width:75%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="ss5.JPG" style="width:75%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="ss6.JPG" style="width:75%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src="ss7.JPG" style="width:75%">
+  <div class="text">EXTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src="ss8.JPG" style="width:75%">
+  <div class="text">INTERIOR</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+</center>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000);
+}
+</script>
+<div class="content">
+ <center><h2>We at Southern Spice excells to provide you the finest dining ever in terms of both Food quality and Ambience.We are capable enough to provide best in class service and that too at required time.</h2></center>
+</div>
+</body>
+</html>

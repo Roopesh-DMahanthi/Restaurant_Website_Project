@@ -1,0 +1,27 @@
+$(document).ready(function(){
+  $('#one').click(function(){
+    $('#one').fadeOut(500,function(){
+            $('#two').fadeIn(500);
+      });
+   });
+   $('#nextOfAnu').click(function(){
+     $('#two').fadeOut(500,function(){
+       $('#three').fadeIn(500);
+     });
+   });
+   $('#nextOfSS').click(function(){
+     $('#three').fadeOut(500,function(){
+       $('#four').fadeIn(500);
+     });
+   });
+   $('#nextOfHo').click(function(){
+     $('#four').fadeOut(500,function(){
+       $('#five').fadeIn(500);
+     });
+   });
+   $('#nextOfS1').click(function(){
+     $('#five').fadeOut(500,function(){
+       $('#two').fadeIn(500);
+     });
+   });
+});

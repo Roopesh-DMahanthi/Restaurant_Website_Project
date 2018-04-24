@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu : Home Delivery</title>
+<script>
+    function ord()
+{
+alert("Order Taken....Thank You For Ordering");
+    location.reload();
+}
+    </script>
+</head>
+<style>
+    h1 {
+    font-family: "Courier New";
+    color: black;
+}
+body {
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main{
+  height: 200vh;
+  background: url(hd3.png) fixed no-repeat;
+  background-size: cover;
+}
+#container{
+  width: 500px;
+  height: 1000px;
+  background: inherit;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -300px;
+  border-radius: 8px;
+}
+#container:before{
+  width: 500px;
+  height: 1000px;
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  bottom: 0;
+  right: 0;
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
+  filter: blur(15px);
+}
+form img{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+form{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+input{
+  background: 0;
+  width: 200px;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid rgba(255,255,255, 0.3);
+  margin: 20px 0;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255,255,255, 0.8);
+}
+input[type="radio"]{
+  border: 0;
+  border-radius: 8px;
+  padding-bottom: 0;
+  height: 60px;
+  background: #df2359;
+  color: white;
+  cursor: pointer;
+  transition: all 600ms ease-in-out;
+}
+input[type="submit"]:hover{
+  background: #C0392B;
+}
+span a{
+  color: rgba(255,255,255, 0.8);
+}
+</style>
+<body>
+
+    <center><h1>HOME DELIVERY</h1></center>
+    <main>
+<div id="container">
+  <form action="">
+    <img src="hd.png" /><br>
+      <center> <h4>Select Restaurant</h4></center>
+      <input type="radio" name=“res" value="anus" /> Anupama Restaurant
+          <br>
+     <input type="radio" name=“res" value=“sss" /> Southern Spice
+                                               <br>
+      <br>
+     <input type="radio" name=“res" value=“vds"> Venky's Delight
+    <input type="radio" name=“res" value=“vds"> EatnPlay
+
+    <br><br><br>
+    <center> <h4>Select any one item</h4></center>
+      <select name="dropdown">
+      <option value=“Chicken Biryani" selected>Chicken Biryani</option>
+        <option value=“Tandoori Chicken">Tandoori Chicken</option>
+        <option value=“Butter Naan">Butter Naan</option>
+        <option value=“Chicken Biryani" selected>Paneer Butter Masala</option>
+          <option value=“Tandoori Chicken">Dal Makhani</option>
+          <option value=“Butter Naan">Jeera Aalu</option>
+          <option value=“Chicken Biryani" selected>Fish Fry</option>
+            <option value=“Tandoori Chicken">Sauted Salami</option>
+            <option value=“Butter Naan">Smoked Mushroom</option>
+      </select>
+    <br /> <br /> <br />
+      <center> <h4>Delivery Address :</h4></center>                  <br />
+<textarea rows="6" cols=30" name="description"> Enter Address here... </textarea>
+        <br><br>
+<input type="submit" value="ORDER" onclick="ord()"><br>
+  </form>
+</div>
+</main>
+
+    </body>

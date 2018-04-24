@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="../pr_css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../pr_script/index.js"></script>
+  </head>
+  <body >
+<div class="main">
+  <div>
+    <form id="form" action="tempLogin.html">
+      <ul id="nav">
+        <li id="restName">Food Forge</li>
+          <i class="fa fa-user"></i>
+          <li>
+      <button type="submit" value="submit" formtarget="_self" >Login/SignUp</button>
+            </li>
+        </ul>
+    </form>
+  </div>
+  <br />
+  <div id="one" class="content container container-fluid" onclick="one()">
+      <p >Click Down To Make<br /> Your Day!</p>
+        <br />
+      <img class="animated bounce infinite" src="../arrow.png" id ="bounce"/>
+  </div>
+  <div id="two" class="content container container-fluid">
+    <div id="toAnu">
+      <form action="#">
+
+                  <button id="Anu" type="submit" class="btn btn-outline-dark" action="#">Login to View Restaurant
+                      </button>
+
+                    <button id="nextOfAnu" type="button" class="btn btn-outline-dark">View More Restaurant
+                    </button>
+            </form>
+      </div>
+            <p id="name">Anupama Restaurant!! <img id="logoAnu" src="../r_project/anufinal.png" /></p>
+        <div id="seatToAnu">
+                <!-- <button id="seatAnu" type="button" class="btn btn-outline-dark"> Get A Seat or Two Maybe :)
+                </button> -->
+            </div>
+      </div>
+      <div id="three" class="content container container-fluid">
+        <div id="toSS">
+          <form action="#">
+                          <button id="SS" type="submit" class="btn btn-outline-dark" action="#">Login to View Restaurant
+                            </button>
+                            <button id="nextOfSS" type="button" class="btn btn-outline-dark">View More Restaurant
+                            </button>
+                          </form>
+          </div>
+                <p id="name">Southern Spices!! <img id="logoSS" src="../r_project/sslogo.png" /></p>
+            <div id="seatToSS">
+                    <!-- <button id="seatSS" type="button" class="btn btn-outline-dark"> Get A Seat or Two Maybe :)
+                    </button> -->
+                </div>
+          </div>
+          <div id="four" class="content container container-fluid">
+            <div id="toHO">
+              <form action="#">
+                              <button id="ho" type="submit" class="btn btn-outline-dark" action="#">Login to View Restaurant
+                                </button>
+                                <button id="nextOfHo" type="button" class="btn btn-outline-dark">View More Restaurant
+                                </button>
+                              </form>
+              </div>
+                    <p id="nameHo">Eat and Play Combo!! <img id="logoHo" src="../v_project/bf.png" /></p>
+                <div id="seatToHo">
+                        <!-- <button id="seatSS" type="button" class="btn btn-outline-dark"> Get A Seat or Two Maybe :)
+                        </button> -->
+                    </div>
+              </div>
+              <div id="five" class="content container container-fluid">
+                <div id="toS1">
+                  <form action="#">
+                                  <button id="s1" type="submit" class="btn btn-outline-dark" action="#">Login to View Restaurant
+                                    </button>
+                                    <button id="nextOfS1" type="button" class="btn btn-outline-dark">Go to Top!
+                                    </button>
+                                  </form>
+                  </div>
+                        <p id="nameS1">Venky's Delight!!
+                          <!-- <img id="logoHo" src="../v_project/bf.png" /></p> -->
+                    <div id="seatToS1">
+                            <!-- <button id="seatSS" type="button" class="btn btn-outline-dark"> Get A Seat or Two Maybe :)
+                            </button> -->
+                        </div>
+                  </div>
+    </div>
+    <script>
+    history.pushState(null, null, location.href);
+      window.onpopstate = function () {
+                history.go(1);
+      };
+  </script>
+  </body>
+</html>

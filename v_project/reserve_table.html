@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("a10.JPG");
+height: 100%;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(224,235,235,0.7);
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 7.4px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:green;
+}
+li { border-right: 2px solid #000000; }
+
+.active {
+    background-color: black;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="C:\Users\vardhan\Desktop\htm\s.html">Home</a></font></li>
+  <li><a href="C:\Users\vardhan\Desktop\htm\about.html">About</a></li>
+  <li><a href="C:\Users\vardhan\Desktop\htm\gallery.html">Gallery</a></li>
+  <li><a href="C:\Users\vardhan\Desktop\htm\restaurant.html"> Restaurant</a></li>
+  <li><a href="home-delivery.html">Home-Delivery</a></li>
+  <li><a href="C:\Users\vardhan\Desktop\htm\loc.html">Location</a></li>
+  <li><a href="C:\Users\vardhan\Desktop\htm\contact.html">Contact</a></li>
+  <li><a href="reserve_table.html">Reserve a table</a></li>
+</ul>
+</body>  
+<style>
+body
+{
+background-image: url("a9.JPG");
+}
+a
+{
+text-decoration:none;
+color:black;
+font-size:20px;
+font-weight:bold;
+padding:10px;
+}
+.header
+{
+color:white;
+background-color:black;
+text-align:center;
+color:red;
+font-size:40px;
+font-weight:bold;
+}
+.article
+{
+padding:2px;
+margin-left:0px;
+border-right:1px solid black; 
+}
+.heads
+{
+padding:2px;
+font-size:60px;
+color:black;
+font-weight:bold;
+background-color:rgba(224,235,235,0.4);
+}
+</body>
+</style>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAd1sQJlglge2Qmbglkzsqff-RHdcbwJYs",
+    authDomain: "restaurant-81bee.firebaseapp.com",
+    databaseURL: "https://restaurant-81bee.firebaseio.com",
+    projectId: "restaurant-81bee",
+    storageBucket: "restaurant-81bee.appspot.com",
+    messagingSenderId: "1050873526760"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+<body>
+
+<center><p style="font-size:30px;font-weight:bold;color:black;background-color:rgba(224,235,235,0.5);border:1px red black">RESERVE YOUR TABLE:</p><center>
+  <center><h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black">  Name:</h3> <br><input type="text" name="nm" placeholder="Enter the name here"><br>
+  <h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black">  Phone No.:</h3><br><input type="number" name="num" placeholder="+91*****"><br>
+ <h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black"> Alternate Phone No.:</h3><br><input type="number" name="num1" placeholder="+91*****"><br>
+ <h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black"> EMAIL-ID:</h3><br><input type="email" name="mail" placeholder="Enter your mail"><br>
+       <h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black"> EMAIL-ID:</h3><br><input type="email" name="mail" placeholder="Enter your mail"><br>
+      <h3 style="background-color:rgba(224,235,235,0.5);border:1px red black;font-size:20px;font-weight:bold; color:black">No. of Person</h3><br><input type="number" name="per" placeholder=""><br>
+      <br>
+      <button type="submit" name="sub">Reserve Table</button>
+    </center>
+    
+</body>
+</html>

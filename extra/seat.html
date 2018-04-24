@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin:10px;
+padding: 0;
+}
+body
+{
+background-image: url("res.jpg");
+background-position:center;
+
+}
+.head
+{
+padding:2px;
+font-size:25px;
+color:black;
+font-weight:bold;
+background-color:rgba(224,235,235,0.4);
+text-align:center;
+}
+.heads
+{
+font-size:30px;
+color:black;
+font-weight:bold;
+background-color:rgba(224,235,235,0.3);
+}
+#v-content v-section{
+position:absolute;
+}
+
+</style>
+<body>
+<div class="heads">
+<p><center>Reserve a Table</center></p>
+</div>
+</body>
+<script type="text/javascript">       
+function validate() 
+{
+   alert("Sucessfully submitted.");
+}
+</script>
+</head>
+<body>
+<center>
+<div class="form_cust" style="background-color:rgba(224,235,235,0.1);color:black;font-weight:bold">
+<form method="POST" onsubmit="return validate()">
+Name:<br><br>
+<input type="text" name="text" required><br> <br>
+Email ID:<br><br>
+<input type="email" name="email" required> <br><br>
+Contact No:<br><br>
+<input type="text" name="number" maxlength="10" required> <br><br>
+Restaurant  :<br><br>
+<select name="Restaurant required">
+<option>Select Restaurant</option>
+<option>Anupama</option>
+<option>Southren spices</option>
+<option>Venkys Delight</option>
+<option>Eat and Play</option>
+</select>
+<br><br>
+<select name="dropdown">
+<option>2-seater</option>
+<option>3-seater</option>
+<option>4-seater</option>
+<option>6-seater(sofa)</option>
+<option>8-seater(sofa)</option>
+<option>10-seater(sofa)</option>
+<option>party hall</option>
+</select>
+<br><br>
+<input type="submit" value="Submit" >
+<button type="reset" value="Reset" class="button button1">Reset</button> 
+<br>
+</form>    
+</div>
+</center>
+</body>
+<body>
+<center>
+<div class="head">
+<p>Southren Spices</p>
+</div>
+<div class="u-content u-section " style="max-width:100px"> 
+  <img class="first" src="t1.png"  style="width:500%;height:300px;">
+  <img class="first" src="t2.jpg"  style="width:500%;height:300px;">
+  <img class="first" src="t3.png" style="width:500%;height:300px;">
+  <img class="first" src="t4.jpg"  style="width:500%;height:300px;">
+</div>
+<script>
+var myIndex = 0;
+slideshow();
+function slideshow() {
+    var i;
+    var y = document.getElementsByClassName("first");
+    for (i = 0; i < y.length; i++) {
+       y[i].style.display = "none";  
+    }
+    myIndex++;
+    if(myIndex > y.length) {myIndex = 1}    
+    y[myIndex-1].style.display = "block";  
+    setTimeout(slideshow, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</div>
+<body>
+<div class="head">
+<p>Anupama Restaurant</p>
+</div>
+</body>
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<div class="v-content v-section" style="max-width:100px">  
+  <img class="mySlides" src="t9.png"  style="width:500%;height:300px;">
+  <img class="mySlides" src="t10.png"  style="width:500%;height:300px;">
+  <img class="mySlides" src="t11.jpg" style="width:500%;height:300px;">
+  <img class="mySlides" src="t12.png"  style="width:500%;height:300px;">
+</div>
+<script>
+var ilu = 0;
+carousel();
+function carousel() 
+{
+    var j;
+    var x = document.getElementsByClassName("mySlides");
+    for (j = 0; j < x.length; j++)
+    {
+       x[j].style.display = "none";  
+    }
+    ilu++;
+    if (ilu> x.length) {ilu = 1}    
+    x[ilu-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</body>
+<body>
+<div class="head">
+<p>Venkys Delight</p>
+</div>
+</body>
+<style>
+.third {display:none;}
+</style>
+<body>
+<div class="y-content y-section" style="max-width:100px"> 
+  <img class="third" src="a3.jpeg"  style="width:500%;height:300px;">
+  <img class="third" src="a4.jpg"  style="width:500%;height:300px;">
+  <img class="third" src="a6.jpg" style="width:500%;height:300px;">
+  <img class="third" src="a7.jpg"  style="width:500%;height:300px;">
+</div>
+<script>
+var ihu = 0;
+roopesh();
+function roopesh() 
+{
+    var j;
+    var f = document.getElementsByClassName("third");
+    for (j = 0; j < f.length; j++)
+    {
+       f[j].style.display = "none";  
+    }
+    ihu++;
+    if (ihu> f.length) {ihu = 1}    
+    f[ihu-1].style.display = "block";  
+    setTimeout(roopesh, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</body>
+<body>
+<div class="head">
+<p>Eat and Play</p>
+</div>
+</body>
+<style>
+.fourth {display:none;}
+</style>
+<body>
+<div class="a-content a-section" style="max-width:100px">  
+  <img class="fourth" src="t5.png"  style="width:500%;height:300px;">
+  <img class="fourth" src="t6.png"  style="width:500%;height:300px;">
+  <img class="fourth" src="t7.png" style="width:500%;height:300px;">
+  <img class="fourth" src="t8.jpg"  style="width:500%;height:300px;">
+</div>
+</center>
+<script>
+var c = 0;
+mahanthi();
+function mahanthi() 
+{
+    var j;
+    var q = document.getElementsByClassName("fourth");
+    for (j = 0; j < q.length; j++)
+    {
+       q[j].style.display = "none";  
+    }
+    c++;
+    if (c> q.length) {c = 1}    
+    q[c-1].style.display = "block";  
+    setTimeout(mahanthi, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</body>
+
+

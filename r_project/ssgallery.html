@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery : Southern Spice</title>
+<style>
+
+    h2 {
+
+    color: white;
+}
+body {
+    background-image: url("ss1.JPG");
+}
+.content{
+  background-color: rgba(0,0,0,0.5);
+  width: auto;
+  height: auto;
+}
+ul {
+    font-family: "Georgia";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #FFA500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #e7e7e7;
+}
+
+.active {
+    background-color: #111;
+}
+div.gallery {
+    border: 1px solid #000;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+<div class="content">
+<ul>
+  <li><a href="ss.html">Home</a></li>
+    <li><a href="ssmenu.html">Menu</a></li>
+    <li><a class="active" href="ssgallery.html">Gallery</a></li>
+  <li><a href="sscus.html">Contact Us</a></li>
+    <li><a href="ssmap.PNG">Location</a></li>
+    <!-- <li><a href="#homedel">Home Delivery</a></li> -->
+    <!-- <li><a href="#res">Reserve a Table!</a></li> -->
+</ul>
+    <br/><br/><br/>
+     <center><img src="sslogo.png" alt="logo" width="350" height="120"></center>
+     <br/><br/><br/>
+
+<center><h2>Our Gallery</h2></center>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss1.JPG">
+      <img src="ss1.JPG" alt="pic 1" width="300" height="200">
+    </a>
+    <div class="desc">Front View - 1</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss2.JPG">
+      <img src="ss2.JPG" alt="pic 2" width="600" height="400">
+    </a>
+    <div class="desc">Front View - 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss6.JPG">
+      <img src="ss6.JPG" alt="pic 3" width="600" height="400">
+    </a>
+    <div class="desc">Full Front</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss7.JPG">
+      <img src="ss7.JPG" alt="pic 4" width="600" height="400">
+    </a>
+    <div class="desc">Side View</div>
+  </div>
+</div>
+    <div class="clearfix"></div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss3.JPG">
+      <img src="ss3.JPG" alt="pic 5" width="300" height="200">
+    </a>
+    <div class="desc">Top Interior view - 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss4.JPG">
+      <img src="ss4.JPG" alt="pic 6" width="600" height="400">
+    </a>
+    <div class="desc">Top Interior view - 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss5.JPG">
+      <img src="ss5.JPG" alt="pic 7" width="600" height="400">
+    </a>
+    <div class="desc">Top Interior view - 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="ss8.JPG">
+      <img src="ss8.JPG" alt="pic 8" width="600" height="400">
+    </a>
+    <div class="desc">Ground Interior view</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+
+</div>
+</div>
+</body>
+</html>

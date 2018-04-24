@@ -1,0 +1,336 @@
+body{
+  font-family: Sofia;
+  background-image:  url('../index.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#nav {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background: linear-gradient( black , #211);
+    position: fixed;
+    width: 100%;
+}
+#restName{
+  float: left;
+  font-size: 35px;
+  color: white;
+  margin-left: 10px;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.main{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.content{
+  width: auto;
+  height: 550px;
+  font-size: 90px;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+  margin-top: 8vw;
+}
+
+p{
+  margin-top: 4vw;
+  position: relative;
+}
+#name{
+  font-size: 50px;
+  margin-left: 40%;
+  border: solid white 1px;
+}
+#nameHo{
+  margin-top: 20%;
+  font-size: 50px;
+  margin-left: 40%;
+  border: solid white 1px;
+}
+#nameS1{
+  margin-top: 20%;
+  font-size: 50px;
+  margin-left: 40%;
+  border: solid white 1px;
+}
+li {
+    float: right;
+    list-style-type: none;
+}
+
+li button {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    padding: 14px 16px ;
+    border: none 0px;
+    background-color: rgba(0,200,0,0.5);
+    transition: .2s;
+    margin-right: 5px;
+}
+
+li button:hover {
+    box-shadow: 0px 0px 4px 0px white inset;
+    background-color: rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+
+#one{
+  font-size: 50px;
+  display: block;
+}
+#two{
+  font-size: 50px;
+  display: none;
+}
+#three{
+  display: none;
+}
+#four{
+  display: none;
+}
+#five{
+  display: none;
+}
+
+/*ANU CSS */
+#toAnu{
+  text-align: left;
+  margin-top: 2vw;
+}
+
+#Anu{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#Anu:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+#nextOfAnu{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: right;
+}
+#nextOfAnu:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+
+#seatToAnu{
+  margin-top: 8vw;
+}
+#seatAnu{
+  float: left;
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#seatAnu:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+i{
+  float: right;
+  margin-left: 10px;
+}
+.fa-user{
+  color: rgba(255,255,255,0.8);
+  font-size: 40px;
+}
+#logoAnu{
+  width: 220px;
+  height: 110px;
+}
+
+
+/*SS CSS*/
+#toSS{
+  text-align: left;
+  margin-top: 2vw;
+}
+
+#SS{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#SS:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+
+#seatToSS{
+  margin-top: 8vw;
+}
+#seatSS{
+  float: left;
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#seatSS:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+i{
+  float: right;
+  margin-left: 10px;
+}
+.fa-user{
+  color: rgba(255,255,255,0.8);
+  font-size: 40px;
+}
+#logoSS{
+  width: 220px;
+  height: 110px;
+}
+#nextOfSS{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: right;
+}
+#nextOfSS:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+
+/* CSS HO */
+#toHo{
+  text-align: left;
+  margin-top: 2vw;
+}
+
+#ho{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: left;
+}
+#ho:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+
+#seatToHo{
+  margin-top: 8vw;
+}
+#seatHo{
+  float: left;
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#seatHo:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+i{
+  float: right;
+  margin-left: 10px;
+}
+.fa-user{
+  color: rgba(255,255,255,0.8);
+  font-size: 40px;
+}
+#logoHo{
+  width: 220px;
+  height: 110px;
+}
+#nextOfHo{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: right;
+}
+#nextOfHo:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+/* CSS S1 */
+#toS1{
+  text-align: left;
+  margin-top: 2vw;
+}
+
+#s1{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: left;
+}
+#s1:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+
+#seatToS1{
+  margin-top: 8vw;
+}
+#seatS1{
+  float: left;
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+}
+#seatS1:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}
+i{
+  float: right;
+  margin-left: 10px;
+}
+.fa-user{
+  color: rgba(255,255,255,0.8);
+  font-size: 40px;
+}
+#logoS1{
+  width: 220px;
+  height: 110px;
+}
+#nextOfS1{
+  padding: 10px 40px;
+  font-size: 25px;
+  color: white;
+  border: none;
+  background-color: rgba(80,80,80,0.4);
+  float: right;
+}
+#nextOfS1:hover{
+  border: rgba(200,200,200,0.5) solid 0.5px;
+  background-color: transparent;
+}

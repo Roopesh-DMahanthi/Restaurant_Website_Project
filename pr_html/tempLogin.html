@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../pr_css/tempLogin.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAWSUKjQdfFJgJUm7_3uUXCcO_PoxeNwDE",
+    authDomain: "users-3f104.firebaseapp.com",
+    databaseURL: "https://users-3f104.firebaseio.com",
+    projectId: "users-3f104",
+    storageBucket: "users-3f104.appspot.com",
+    messagingSenderId: "875265157691"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../pr_script/auth.js"></script>
+  <script src="../pr_script/log.js"></script>
+  <title>Get Started</title>
+</head>
+
+<body id="body">
+
+    <header>
+        Get Started To<br />
+        Explore A New World!
+    </header>
+
+    <div id="loginPage" class="loginPage">
+
+      <div >
+        <input class="loginProp" id="userEmailLog" type="email" placeholder="EMail" required/>
+        <br /><br />
+        <input class="loginProp" id="userPassLog" type="password" placeholder="Password" required/>
+        <br /><br />
+        <button class="loginBtn" type="submit" onclick="toggleSignIn()" formaction="../pr_html/index.html">Login</button>
+        <br /><br />
+        <p>Not Registered? <button class="logToSign" id="signUp" type="button">Create an account</button></p>
+      </div>
+
+    </div>
+    <div id="signPage" class="signPage">
+
+      <div>
+        <input class="signProp" id="userEmail" type="email" placeholder="EMail" required/>
+        <br /><br />
+        <input class="signProp" id="userPass" type="password" placeholder="Password (less that 16 characters)" onchange="checkPass()" required/>
+        <br /><br />
+        <input class="signProp" id="mobNum" type="text" onchange="checkNum()" placeholder="Contact Number" required/>
+        <br /><br />
+        <button class="signBtn" type="submit" onclick="toggleSignUp()">SignUp</button>
+        <br />
+        <p>Already Registered? <button class="signToLog" id="signIn" type="button" >Login</button></p>
+      </div>
+
+    </div>
+</body>
+</html>

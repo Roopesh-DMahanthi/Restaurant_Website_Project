@@ -1,0 +1,108 @@
+body{
+  background-image: url('../burger.jpg');
+  background-repeat: no-repeat;
+  font-family: Sofia;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+header{
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  float:inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 10px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+.loginPage{
+  background-color: rgba(255,255,255,0.6);
+  width: 300px;
+  height: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+.loginProp{
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding: 10px;
+  width: 220px;
+  height: 30px;
+}
+.loginBtn{
+  color: white;
+  font-weight: bold;
+  background-color: #121212;
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  text-align: center;
+  padding: 10px;
+  width: 240px;
+  height: 50px;
+}
+.loginBtn:hover{
+  cursor: pointer;
+}
+#signUp{
+  background-color: transparent;
+  border: none 0px;
+  outline: none;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+}
+#signIn{
+  background-color: transparent;
+  border: none 0px;
+  outline: none;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signPage{
+  background-color: rgba(255,255,255,0.6);
+  width: 300px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+.signProp{
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding: 10px;
+  width: 220px;
+  height: 30px;
+}
+.signBtn{
+  color: white;
+  font-weight: bold;
+  background-color: #121212;
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  text-align: center;
+  padding: 10px;
+  width: 240px;
+  height: 50px;
+}
+.signBtn:hover{
+  cursor: pointer;
+}
